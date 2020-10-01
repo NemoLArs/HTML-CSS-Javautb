@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Employee survey</title>
+  </head>
+  <body>
+    <div class="main">
+      <form action="/">
+        <div class="banner">
+          <h1>Employee Survey</h1>
+        </div>
+        <p class="top-info">This is a survey for our employees, please take your time and fill it out. You will be rewarded with a cookie afterwards.</p>
+
+
+        <div class="input">
+          <p><b>Name</b></p>
+          <div class="name-bar">
+            <input type="text" name="name" value="First (Maximun 20 characters)" required maxlength="20" size="30"/> 
+          </div>
+        </div>
+
+
+        <div class="input">
+          <p>About you</p>
+          <div class="about-text">
+            <textarea name="about" rows="4" cols="30" wrap="hard">Write something about yourself
+            </textarea>
+          </div>
+        </div>
+
+        <div class="input">
+            <p><i>Do you train any sports active?</i></p>
+            <div class="train-box">
+              <label><input type="radio" value="none" name="train" required/> <span>Yes</span></label>
+              <label><input type="radio" value="none" name="train" required/> <span>No</span></label>
+            </div>
+        </div>   
+
+        <div class="input">
+            <p><i><b>Which way do you prefer when reading intreseting things?<br>You can choose multiply answers here.</b></i></p>
+            <input type="checkbox" name="study1" value="Books">
+            <label for="study1"> Books</label><br>
+            <input type="checkbox" name="study2" value="Magazines">
+            <label for="study2"> Magazines</label><br>
+            <input type="checkbox" name="study3" value="Online">
+            <label for="study3"> Online</label>
+        </div>
+        <div class="input">
+            <p>Select your favorite movie genre</p>
+            <select>
+                <option value=""></option>
+                <option value="1">Action</option>
+                <option value="2">Romance</option>
+                <option value="3">Comedy</option>
+                <option value="4">Drama</option>
+                <option value="5">Horror</option>
+              </select>
+        </div>
+        <div class="btn-submit">
+            <p>Clicking this button will send and save all information form this survey on the webserver. </p>
+            <button type="submit" href="/">Submit</button>
+          </div>
+      </form>
+    </div>
+  </body>
+</html>
