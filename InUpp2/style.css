@@ -1,0 +1,44 @@
+html, body {
+	min-height: 100%;
+	}
+	body, div, p { 
+		
+	padding: 5;
+	margin: 1;
+	outline: none;
+	font-family: Roboto;
+	font-size: 14px;
+	color: rgb(16, 144, 167);
+	line-height: 22px;
+	}
+	h1 {
+	display: flex;
+	justify-content: center;
+	margin: 20;
+	font-size: 30px;
+	color: rgb(204, 58, 58);
+	}
+	h2 {
+	display: flex;
+	justify-content: center;
+	margin: 10;
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	}
+	h3 {
+	margin: 0;
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	}
+	.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: inherit;
+	padding: 20px;
+	}
+	.summary {
+
+		display: flex;
+		justify-content: center;
+	}
