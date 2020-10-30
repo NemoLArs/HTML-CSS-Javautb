@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> Nemo-Studios </title>
+    <meta name="description" content="Nemo-Studios website">
+    <meta name="author" content="Anton Nemo Larzenius">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================================================================= -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/type.css">
+    <link rel="stylesheet" href="css/color.css">
+
+    <!-- JS
+    ================================================================================================= -->
+    <script src="js/libs/modernizr.min.js"></script>
+    <script src="js/libs/jquery-1.8.3.min.js"></script>
+    <script src="js/libs/jquery.easing.1.3.min.js"></script>
+    <script src="js/libs/jquery.fitvids.js"></script>
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+
+<!-- Write preloader to page - this allows the site to load for users with JS disabled -->
+<script type="text/javascript">
+    document.write("<div id='sitePreloader'><div id='preloaderImage'><img src='images/site_preloader.gif' alt='Preloader' /></div></div>");
+</script>
+
+<div class="container">
+
+    <!-- Header begins ========================================================================== -->
+    <header class="sixteen columns">
+        <div id="logo">
+            <h1>Nemo-Studios</h1>
+            <h2>Game Developing Studio</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><button id="workPage">Work</button></li>
+                <li><button id="aboutPage">About</button></li>
+            </ul>
+        </nav>
+        <hr />
+    </header>
+    <!-- Header ends ============================================================================ -->
+
+    <!-- Work page begins ======================================================================= -->
+    <div id="work">
+
+        <div id="overview" class="sixteen columns">
+            <h3>Welcome to Nemo-Studios!<br> Here you can find some information about my work and development of my games. Have fun!</h3>
+            <hr />
+        </div>
+
+        <div class="eight columns" id="col1">
+
+            <!-- Project begins ================================================================= -->
+            <div class="project">
+
+                <div class="projectThumbnail">
+                    <svg class="thumbnailMask"></svg>
+                    <div class="projectThumbnailHover">
+                        <h4>Corma</h4>
+                        <h5>Open World - Sandbox - PvPvE online game, available on steam</h5>
+                    </div>
+
+                    <img src="images/cormabild.jpg" alt="Project 01" class="thumbnailImage" />
+                </div>
+
+                <div class="projectInfo">
+                    <h4>Corma - Open World Survival</h4>
+                    <div class="projectNavCounter"></div>
+                    <div class="projectNav">
+                        <div class="projectNavButtons"><button class="prev"></button><button class="next"></button></div>
+                    </div>
+                    <p>
+                        Corma is a open world PvPvE survival game that's under devolpment. You can get it on steam for free testing.
+                    </p>
+                    <ul>
+                        <li><strong>SteamLink:</strong> <a href="https://store.steampowered.com/app/978620/Corma_The_Next_Level/" target="_blank">Corma Steam Page</a></li>
+                        <li><strong>Gamestate:</strong> Early Access on Steam - In development</li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- Project ends =================================================================== -->
+
+            <!-- Project begins ================================================================= -->
+            <div class="project">
+
+                <div class="projectThumbnail">
+                    <svg class="thumbnailMask"></svg>
+                    <div class="projectThumbnailHover">
+                        <h4>Attack Heroes</h4>
+                        <h5>TopDown Arena PvP game - Not released yet</h5>
+                    </div>
+                    <img src="images/tempimageproject.jpg" alt="Project 02" class="thumbnailImage" />
+                </div>
+
+                <div class="projectInfo">
+                    <h4>Attack Heroes</h4>
+                    <div class="projectNavCounter"></div>
+                    <div class="projectNav">
+                        <div class="projectNavButtons"><button class="prev"></button><button class="next"></button></div>
+                    </div>
+
+                    <p>
+                        Discription
+                    </p>
+                    <ul>
+                        <li><strong>SteamLink:</strong> Link</li>
+                        <li><strong>Gamestate:</strong> Not yet released - In development</li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- Project ends =================================================================== -->
+
+
+        </div><!-- col1 -->
+
+        <!-- Even numbered projects are dynamically moved into this second column via JS -->
+        <div class="eight columns" id="col2">
+        </div>
+
+    </div>
+    <!-- Work page ends ========================================================================= -->
+
+    <!-- About page begins ====================================================================== -->
+    <div id="about">
+
+        <!-- Column 1 begins ==================================================================== -->
+        <div class="eight columns">
+
+            <h3>About Nemo-Studios</h3>
+            <p>
+                Welcome to Nemo-Studios offical webpage. Here you can read about our games and progress, contact us if you need to.
+            </p>
+
+
+        </div>
+        <!-- Column 1 ends ====================================================================== -->
+
+        <!-- Column 2 begins ==================================================================== -->
+        <div class="eight columns">
+
+            <img src="images/contact-us.png" alt="About" />
+
+            <ul class="linedList">
+                <li><strong>Location:</strong> Växjö, Sweden</li>
+                <li><strong>Email:</strong> <a href="mailto:nemo@nemo-studios.com">nemo@nemo-studios.com</a></li>
+            </ul>
+
+        </div>
+        <!-- Column 2 ends ====================================================================== -->
+
+    </div>
+    <!-- About page ends ======================================================================== -->
+
+    <!-- Footer begins ========================================================================== -->
+    <footer class="sixteen columns">
+        <hr />
+        <ul id="footerLinks">
+            <li>&copy; 2020 Nemo-Studios. All rights reserved.</li>
+            <li><a href="mailto:nemo@nemo-studios.com">nemo@nemo-studios.com</a></li>
+        </ul>
+    </footer>
+    <!-- Footer ends ============================================================================ -->
+
+</div><!-- container -->
+</body>
+</html>
